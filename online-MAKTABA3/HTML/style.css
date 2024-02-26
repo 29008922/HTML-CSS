@@ -1,5 +1,3 @@
-
-
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -103,56 +101,65 @@ input, select {
     vertical-align:middle;
 }
 /*........This section is used to style the wrapper and the main section...............*/
-
-.wrapper {
-	height: 660px;
+.wrapper{
+    height: 660px;
     width: 100%px;
     background-image: url("../IMAGES/pic7.jpeg");
-	color: white;
-	}
-	
-	nav
+    color: white;
+}
+header {
+    background-color:grey;
+    height : 120px;
+    width: 100%;
+}
+section{
+    height: 440px;
+    width: 100%;
+}
+footer {
+    background-color:grey;
+    height : 100px;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+nav
 	{
 		float: right;
 		word-spacing: 30px;
-		padding-top: 0px;
-
-
-	}
-	header {
-		background-color:grey;
-		height : 160px;
-		width: 100%;
-	
-	}
-	img {
-		height:90px;
-		width: 108px;
-		margin-bottom: auto;
-		padding: 20px;
-		float:left;
-	}
-	li a {
-		text-decoration: none;
-		color: white;
-		margin-top: 10px;
-	}
-	footer {
-		background-color:grey;
-		height : 150px;
-		width: 100%;
-		text-align: justify;
-		margin-top: 0;
-	}
-	.image-background
-	{
-		background-color: url("../IMAGES/pic7.jpeg");
+		padding-bottom: 100px;
+		margin-bottom: 50px;
 	}
     .box
+{
+    height: 300px;
+    width: 450px;
+    background-color: rgb(8, 7, 7);
+    margin: 20px auto;
+    opacity: 0.5;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+img {
+    height:90px;
+    width: 108px;
+    margin-bottom: auto;
+    padding: 20px;
+    float:left;
+}
+nav li 
     {
-        height: 300px;
-        width: 450px;
-        background-color: red;
-        margin: 20px auto;
-        opacity: 0.5;
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 0px;
     }
+    /*...........................student login..........................*/
+
+.header {
+    background-color:grey;
+    height : 120px;
+    width: 100%;
+}
